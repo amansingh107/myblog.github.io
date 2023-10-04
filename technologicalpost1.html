@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="#">My<span>Blog</span></a></div>
+        <ul class="menu">
+            <li><a href="index.html" class="menu-btn">Home</a></li>
+            <li><a href="index.html#latest" class="menu-btn">Latest</a></li>
+            <li><a href="index.html#educational" class="menu-btn">Educational</a></li>
+            <li><a href="index.html#technological" class="menu-btn">Technological</a></li>
+            <li><a href="index.html#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+
+
+   
+    <main>
+        <article>
+          <h2>You’re Using ChatGPT Wrong! Here’s How to Be Ahead of 99% of ChatGPT Users</h2>
+          <p class="meta">Posted on <span class="date">June 10th, 2023</span> by <span class="author">Niya John</span></p>
+          <p>
+            Most of us use ChatGPT wrong.
+
+We don’t include examples in our prompts.
+We ignore that we can control ChatGPT’s behavior with roles.
+We let ChatGPT guess stuff instead of providing it with some information.
+
+This happens because we mostly use standard prompts that might help us get the job done once, but not all the time.
+
+We need to learn how to create high-quality prompts to get better results. We need to learn prompt engineering! And, in this guide, we’ll learn 4 techniques used in prompt engineering.
+
+Now let’s create another prompt. Say we want to extract airport codes from the text “I want to fly from Orlando to Boston”
+
+Here’s the standard prompt that most would use.
+
+Extract the airport codes from this text: “I want to fly from Orlando to Boston”
+
+This might get the job done, but sometimes it might not be enough. In such cases, you have to use few shot standard prompts.
+
+Extract the airport codes from this text:
+
+Text: “I want to fly from Los Angeles to Miami.”
+Airport codes: LAX, MIA
+
+Text: “I want to fly from Nashville to Kansas City.”
+Airport codes: BNA, MCI
+
+Text: “I want to fly from Orlando to Boston”
+Airport codes:
+
+If we try the previous prompt on ChatGPT, we’re going to get the airport code in the format we specified in the example (MCO, BOS)
+
+Keep in mind that previous research found that the actual answers in the examples are not important, but the labelspace is. A labelspace is all the possible labels for a given task. You could improve the results of your prompts by even providing random labels from the labelspace.
+
+Let’s test this by typing random airport codes in our example.
+
+Extract the airport codes from this text:
+
+Text: “I want to fly from Los Angeles to Miami.”
+Airport codes: DEN, OAK
+
+Text: “I want to fly from Nashville to Kansas City.”
+Airport codes: DAL, IDA
+
+Text: “I want to fly from Orlando to Boston”
+Airport codes:
+
+If you tried the previous prompt on ChatGPT, you’ll still get the right airport codes MCO and BOS.
+
+Whether your examples are correct or not, include random labels from the labelspace. This will help you improve results and instruct the model on how to format the answer to the prompt.
+
+
+          </p>
+          <p>
+            Role Prompting
+Sometimes the default behavior of ChatGPT isn’t enough to get what you want. This is when you need to set a role for ChatGPT.
+
+Say you want to practice for a job interview. By telling ChatGPT to “act as hiring manager” and adding more details to the prompt, you’ll be able to simulate a job interview for any position.
+
+          </p>
+          <p>
+            As you can see, ChatGPT behaves like he’s interviewing me for a job position.
+
+Just like that, you can turn ChatGPT into a language tutor to practice a foreign language like Spanish or a movie critic to analyze any movie you want. In this article, I dive more into how to turn ChatGPT into your language tutor or language buddy.
+
+You only need to start your prompt with the words “Act as a … ” and then add as many details as possible. If you need some inspiration, check this repository where you’ll find prompts to make ChatGPT behave like a stand-up comedian, doctor, and more.
+
+Add personality to your prompts and generate knowledge
+These two prompting approaches are good when it comes to generating text for emails, blogs, stories, articles, etc.
+
+First, by “adding personality to our prompts” I mean adding a style and descriptors. Adding a style can help our text get a specific tone, formality, domain of the writer, and more.
+
+Write [topic] in the style of an expert in [field] with 10+ years of experience.
+
+To customize the output even further we can add descriptors. A descriptor is simply an adjective that you can add to tweak your prompt.
+
+Say you want to write a 500-blog post on how AI will replace humans. If you create a standard prompt with the words “write a 500-blog post on how AI will replace humans,” you’d probably get a very generic post.
+
+However, if you add the adjectives such as inspiring, sarcastic, intriguing, and entertaining, the output will significantly change.
+
+Let’s add descriptors to our previous prompt.
+
+Write a witty 500-blog post on why AI will not replace humans. Write in the style of an expert in artificial intelligence with 10+ years of experience. Explain using funny examples
+
+In our example, the style of an expert in AI and adjectives such as witty and funny are adding a different touch to the text generated by ChatGPT. A side effect of this is that our text will be hard to detect by AI detectors (in this article, I show other ways to fool AI detectors).
+
+Finally, we can use the generated knowledge approach to improve the blog post. This consists in generating potentially useful information about a topic before generating a final response.
+
+For example, before generating the post with the previous prompt we could first generate knowledge and only then write the post.
+
+Generate 5 facts about “AI will not replace humans”
+
+Once we have the 5 facts we can feed this information to the other prompt to write a better post.
+
+# Fact 1
+# Fact 2
+# Fact 3
+# Fact 4
+# Fact 5
+
+Use the above facts to write a witty 500-blog post on why AI will not replace humans. Write in the style of an expert in artificial intelligence with 10+ years of experience. Explain using funny examples
+
+In case you’re interested in knowing other ways to improve your posts using ChatGPT, check this guide.
+
+Chain of Thought Prompting
+Unlike standard prompting, in chain of thought prompting, the model is induced to produce intermediate reasoning steps before giving the final answer to a problem. In other words, the model will explain its reasoning instead of directly giving the answer to a problem.
+
+Why is reasoning important? The explanation of reasoning often leads to more accurate results.
+
+To use chain of thought prompting, we have to provide few-shot examples where the reasoning is explained in the same example. In this way, the reasoning process will also be shown when answering the prompt.
+
+
+          </p>
+        </article>
+      </main>
+  
+      <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>

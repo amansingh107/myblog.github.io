@@ -1,0 +1,158 @@
+<h1>Latest Posts</h1>
+    <section class="latest" id="latest">
+        <!-- 1st post of latest post -->
+        <div class="latest-post">
+            <img src="data:image/jpeg;base64,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" alt="apple">
+            <span>12 January 2022</span>
+          <a href="#">
+            <p>Apple's market value breaches $3 trillion mark again</p></a>
+            
+            <div class="profile">
+                <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                <p>Marlus Carles</p>
+            </div>
+        </div>
+
+        <!-- 2nd post of latest post -->
+
+        <div class="latest-post">
+            <img src="https://st.depositphotos.com/1021974/1455/i/450/depositphotos_14558257-stock-photo-course-dollar-increase.jpg" alt="">
+            <span>12 January 2022</span>
+          <a href="#">
+            <p>Apple's market value breaches $3 trillion mark again</p></a>
+            
+            <div class="profile">
+                <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                <p>Marlus Carles</p>
+            </div>
+        </div>
+      
+        <!-- 3rd post -->
+        <div class="latest-post">
+            <img src="https://i.gadgets360cdn.com/large/uk_crypto_uk_pixabay_cryptostock_large_1647937264666.jpg" alt="">
+            <span>12 January 2022</span>
+          <a href="#">
+            <p>Apple's market value breaches $3 trillion mark again</p></a>
+            
+            <div class="profile">
+                <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                <p>Marlus Carles</p>
+            </div>
+        </div>
+        
+
+        <!--4th post -->
+
+        <div class="latest-post">
+            <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="">
+            <span>12 January 2022</span>
+          <a href="#">
+            <p>Apple's market value breaches $3 trillion mark again</p></a>
+            
+            <div class="profile">
+                <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                <p>Marlus Carles</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Educational posts -->
+
+<h1>Educational Posts</h1>
+        <section class="latest" id="latest">
+            <!-- 1st post of educational post -->
+            <div class="latest-post">
+                 <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="">
+                <span>12 January 2022</span>
+              <a href="#">
+                <p>Apple's market value breaches $3 trillion mark again</p></a>
+                
+                <div class="profile">
+                    <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                    <p>Marlus Carles</p>
+                </div>
+            </div>
+    
+            <!-- 2nd post of educational post -->
+    
+            <div class="latest-post">
+                <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="">
+                <span>12 January 2022</span>
+              <a href="#">
+                <p>Apple's market value breaches $3 trillion mark again</p></a>
+                
+                <div class="profile">
+                    <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                    <p>Marlus Carles</p>
+                </div>
+            </div>
+          
+            <!-- 3rd educational post -->
+            <div class="latest-post">
+                <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="">
+                <span>12 January 2022</span>
+              <a href="#">
+                <p>Apple's market value breaches $3 trillion mark again</p></a>
+                
+                <div class="profile">
+                    <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                    <p>Marlus Carles</p>
+                </div>
+            </div>
+        </section>
+            
+            <!-- Technological Posts -->
+    <h1>Technological Posts</h1>
+                <section class="latest" id="latest">
+                    <!-- 1st post of technological  post -->
+                    <div class="latest-post">
+                        <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="apple">
+                        <span>12 January 2022</span>
+                      <a href="#">
+                        <p>Apple's market value breaches $3 trillion mark again</p></a>
+                        
+                        <div class="profile">
+                            <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                            <p>Marlus Carles</p>
+                        </div>
+                    </div>
+            
+                    <!-- 2nd post of technological  post -->
+            
+                    <div class="latest-post">
+                        <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="">
+                        <span>12 January 2022</span>
+                      <a href="#">
+                        <p>Apple's market value breaches $3 trillion mark again</p></a>
+                        
+                        <div class="profile">
+                            <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                            <p>Marlus Carles</p>
+                        </div>
+                    </div>
+                  
+                    <!-- 3rd technological post -->
+                    <div class="latest-post">
+                        <img src="https://images.firstpost.com/wp-content/uploads/2023/07/kushal-chakraborty-ray-sonar-kella.jpg?impolicy=website&width=1200&height=900" alt="">
+
+                        <span>12 January 2022</span>
+                      <a href="#">
+                        <p>Apple's market value breaches $3 trillion mark again</p></a>
+                        
+                        <div class="profile">
+                            <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                            <p>Marlus Carles</p>
+                        </div>
+                    </div>
+        </section>  
+    <section id="comments">
+     <h1>comments</h1>
+     <label for="comments">Give your comments here</label>
+     <br>
+     <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+     <input type="submit" value="Submit"  >
+    </section>
+
+    <script href="script.js"></script>

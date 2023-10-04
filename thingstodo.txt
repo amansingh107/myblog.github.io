@@ -1,0 +1,3 @@
+navbar issue 
+responsive issue
+additional html file for each website
